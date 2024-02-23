@@ -17,4 +17,4 @@ altura = float(input("Digite a sua altura em metros: "))
 imc = calcular_imc(peso, altura)
 interpretacao = ler_imc(imc)
 
-print(f"Seu imc é {imc:.2f}. Você está {interpretacao}.")
+print(f"Seu imc é {imc:.2f}. vc ta  {interpretacao}.")

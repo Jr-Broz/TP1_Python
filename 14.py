@@ -4,7 +4,6 @@ def votacao():
     opcao2_votos = 0
     opcao3_votos = 0
 
-
     while True:
         print("Escolha uma opcao: ")
         print("1. Opção 1 ")
@@ -24,12 +23,9 @@ def votacao():
         else:
             print("Error, tente novamente!")
 
-
     print("\nResultado da votação:")
     print("Opção 1:", opcao1_votos, "votos")
     print("Opção 2:", opcao2_votos, "votos")
     print("Opção 3:", opcao3_votos, "votos")
-
-
 
 votacao()
